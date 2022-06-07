@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1200px) {
+  .wrapper{
+    width: 800px;
+  }
+
+  /* Contact */
+  .contact-info div{
+    /*margin: 0;*/
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper{
+    width: 700px;
+  }
+  /* Menu */
+  .up-menu{
+    display: none;
+  }
+
+  .lines{
+    display: block;
+  }
+
+  .burger-menu{
+    display: block;
+  }
+
+  /* About */
+
+  .left-content{
+    height: 250px
+  }
+
+  .right-content{
+    height: 250px
+  }
+
+  .right-content h3{
+    font-size: 30px;
+  }
+
+  .right-content p{
+      font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper{
+    width: 100%;
+  }
+  /* About */
+    .left-content{
+    height: 200px
+  }
+
+  .right-content{
+    height: 200px
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Header title */
+  .header-title{
+    width: 350px
+  }
+  .header-title p{
+    font-size: 18px;
+  }
+
+  .header-title h1{
+      font-size: 40px;
+  }
+  /* About */
+  .left-content, .right-content{
+    width: 100%;
+  }
+  .right-content{
+    align-items: center;
+    padding: 0 30px;
+  }
+  /* Contact */
+  .contacts h2{
+    font-size: 25px;
+  }
+
+  .map, .contact-info{
+    width: 250px;
+    height: 250px;
+  }
+  .title, .description{
+    font-size: 10px;
+  }
+
+  .contact-info{
+    margin-top: -50px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  /* Menu  choice*/
+  .switch-pizza{
+    height: 20px;
+  }
+  .switch-pizza li{
+    line-height: 20px;
+  }
+  .switch-pizza li p{
+    font-size: 10px;
+    padding: 0 15px;
+  }
+  .menu h2{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* Header title */
+  .header-title{
+    width: 280px
+  }
+  .header-title p{
+    font-size: 15px;
+  }
+
+  .header-title h1{
+      font-size: 32px;
+  }
+  .header-title a{
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Menu  choice*/
+  .switch-pizza{
+    height: 20px;
+  }
+  .switch-pizza li{
+    line-height: 20px;
+  }
+  .switch-pizza li p{
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .menu h2{
+    font-size: 25px;
+  }
+  /* Pizza block */
+  .pizza-block{
+    width: 250px;
+  }
+  .pizza-img{
+    height: 140px;
+  }
+  .pizza-name{
+    font-size: 18px;
+  }
+  .pizza-description{
+    font-size: 12px;
+  }
+  .pizza-size li p{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  /* Header title */
+  .header-title{
+    width: 280px
+  }
+  .header-title p{
+    font-size: 15px;
+  }
+
+  .header-title h1{
+      font-size: 30px;
+  }
+}
+

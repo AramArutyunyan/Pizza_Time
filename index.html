@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Time | 24/7</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/media.css"> <!-- Media -->
+    <script src="https://kit.fontawesome.com/a4251b3f03.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Nav menu -->  
+        <nav class="nav-menu">
+            <!-- Burger Menu -->
+            <section class="burger-menu">
+                <ul>
+                    <li><a href="#">пицца</a></li>
+                    <li><a href="#">о нас</a></li>
+                    <li><a href="#">контакты</a></li>
+                    <li><a href="#">+7 (999) 999-99-99</a></li>
+                </ul>
+            </section>
+            <div class="wrapper">
+                <div class="menu-flex">
+                    <!-- Logo -->
+                    <img src="assets/img/logo.png" alt="Pizza Time" class="logo">
+                    <!-- Burger menu lines -->
+                    <ul class="lines">
+                        <li id="line1"></li>
+                        <li id="line2"></li>
+                        <li id="line3"></li>
+                    </ul>
+                    <!-- Menu -->
+                    <ul class="up-menu">
+                        <li><a href="#">пицца</a></li>
+                        <li><a href="#">о нас</a></li>
+                        <li><a href="#">контакты</a></li>
+                        <li class="phone-number"><a href="#">+7 (999) 999-99-99</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="header-section">
+            <div class="wrapper header-title-centring">
+                <div class="header-title">
+                    <p>от итальянского повара</p>
+                    <h1>Лучшая пицца в Москве</h1>
+                    <a href="#">Выбрать</a>
+                </div>
+            </div>
+        </section>
+        
+    </header>
+
+    <!-- Menu -->
+    <section class="menu wrapper">
+            <h2>Меню</h2>
+            <ul class="switch-pizza">
+                <li class="pizza-clicked" data-mark="all">
+                    <p>все</p>
+                </li>
+                <li data-mark="mushrum">
+                    <p >грибные</p>
+                </li>
+                <li data-mark="meet">
+                    <p>мясные</p>
+                </li>
+                <li data-mark="chess">
+                    <p>сырные</p>
+                </li>
+            </ul>
+    </section>
+
+    <!-- Pizza list -->
+    <section class="pizza-list wrapper"></section>
+    <!-- About -->
+    <section class="about">
+        <div class="left-content"></div>
+        <div class="right-content">
+            <h3>О нас</h3>
+            <p>Доставим вам горячую пиццу менее чем за час или пицца бесплатно. Мы готовим пиццу только из свежих продуктов. Каждый день мы покупаем свежие овощи, грибы и мясо.</p>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+
+    <section class="contacts wrapper">
+        <h2>Контакты</h2>
+        <div class="cobtacts-block">
+            <div class="map"></div>
+            <div class="contact-info">
+                <div class="adress">
+                    <p class="title">Адрес</p>
+                    <p class="description">г.Москва, Преображенская площадь, 8</p>
+                </div>
+                <div class="phone-number">
+                    <p class="title">Телефон</p>
+                    <p class="description">+7(999)999-99-99</p>
+                </div>
+                <div class="social-links">
+                    <p class="title">Социальные сети</p>
+                    <span class="social-links-icon">
+                        <i class="fa-brands fa-vk"></i>
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </span>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script src="assets/js/main.js"></script> <!-- JS -->
+</body>
+</html>
